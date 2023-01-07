@@ -1,17 +1,17 @@
 /* eslint-disable prettier/prettier */
 import {
   SiReact,
-  SiHtml5,
-  SiCss3,
-  SiJavascript,
   SiTypescript,
   SiNextdotjs,
   SiNodedotjs,
   SiPostgresql,
   SiTailwindcss,
-  SiRedux,
-  SiFirebase,
   SiGit,
+  SiDjango,
+  SiGraphql,
+  SiPython,
+  SiDocker,
+  SiLinux,
 } from 'react-icons/si'
 
 import { motion } from 'framer-motion'
@@ -20,21 +20,29 @@ import { FadeContainer, popUp } from '../lib/FramerMotionVariants'
 
 const skills = [
   {
+    name: 'Python',
+    logo: SiPython,
+  },
+  {
+    name: 'Django',
+    logo: SiDjango,
+  },
+  {
     name: 'TypeScript',
     logo: SiTypescript,
   },
-  {
-    name: 'HTML',
-    logo: SiHtml5,
-  },
-  {
-    name: 'CSS',
-    logo: SiCss3,
-  },
-  {
-    name: 'JavaScript',
-    logo: SiJavascript,
-  },
+  // {
+  //   name: 'HTML',
+  //   logo: SiHtml5,
+  // },
+  // {
+  //   name: 'CSS',
+  //   logo: SiCss3,
+  // },
+  // {
+  //   name: 'JavaScript',
+  //   logo: SiJavascript,
+  // },
   {
     name: 'React',
     logo: SiReact,
@@ -56,17 +64,20 @@ const skills = [
     logo: SiPostgresql,
   },
   {
-    name: 'Redux',
-    logo: SiRedux,
-  },
-
-  {
-    name: 'Firebase',
-    logo: SiFirebase,
+    name: 'GraphQL',
+    logo: SiGraphql,
   },
   {
     name: 'Git',
     logo: SiGit,
+  },
+  {
+    name: 'Docker',
+    logo: SiDocker,
+  },
+  {
+    name: 'Linux',
+    logo: SiLinux,
   },
 ]
 

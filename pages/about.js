@@ -5,7 +5,7 @@ import Link from '@/components/Link'
 
 import { Container } from '@/components/Container'
 import { GitHubIcon, LinkedInIcon, MailIcon } from '@/components/social-icons'
-import portraitImage from '../public/static/images/avatar.jpg'
+import portraitImage from '../public/static/images/ANK_passportsize.jpg'
 
 function SocialLink({ className, href, children, icon: Icon }) {
   return (
@@ -29,7 +29,7 @@ export default function About() {
         <title>{`About - ${author}`}</title>
         <meta
           name="description"
-          content="Hi, I'm Curtis Warcup. I'm a software engineer and a lifelong learner. I'm passionate about building great software and sharing what I learn along the way."
+          content="Hi, I'm K N Anantha nandanan. I'm a software engineer and a lifelong learner. I'm passionate about building great software and sharing what I learn along the way."
         />
       </Head>
       <Container className="mt-10">
@@ -38,7 +38,7 @@ export default function About() {
             <div className="max-w-xs px-2.5 lg:max-w-none">
               <Image
                 src={portraitImage}
-                alt="portrait of Curtis Warcup"
+                alt="portrait of K N Anantha nandanan"
                 sizes="(min-width: 1024px) 32rem, 20rem"
                 className="aspect-square rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800"
               />
@@ -46,31 +46,29 @@ export default function About() {
           </div>
           <div className="lg:order-first lg:row-span-2">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-              I’m Curtis Warcup. I live in rainy Vancouver, BC.
+              I'm K N Anantha nandanan.
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                I've always loved taking apart things, figuring out how they work, and putting them
-                back together (or not, sorry Mom & Dad). I've been a lifelong learner, and I'm
-                passionate about building great websites and sharing what I learn along the way.
+                I have always been a guy who had a mind of a vagabond, the mind wanders to find
+                answers to questions which excites me and I always try to reach the root of those
+                questions. What is life, when you don't question it? and now I am currently in the
+                midst of pursuing my B.Tech in Computer Science. As a software engineer, I have
+                always been drawn to the challenge of problem-solving and the rewarding feeling of
+                finding a solution. It's this love of problem-solving that has driven me to become a
+                better programmer and team player.
               </p>
               <p>
-                During my time at the University of British Columbia, I studied Kinesiology (the
-                study of human movement) while I worked towards applying to medical school. After an
-                unsuccessful application cycle, I decided to take a year off and work at Apple as an
-                iPhone repair technician. This was an exciting time since Apple was offering their
-                iPhone battery replacement program for $29, and I was able to help hundreds of
-                customers save hundreds of dollars. I also got to work with some of the most
-                talented people I've ever met, and I learned a lot about customer service and how to
-                work with a team.
+                When I'm not working, I like to unwind by reading web novels or hitting the gym.
+                I've always been a fitness junkie and enjoy the sense of accomplishment that comes
+                with pushing myself to be the best version of myself.
               </p>
               <p>
-                I fell in love with the fast-paced environment of Apple and moved into a role as a
-                Genius where I learnt how to handle complex technical issues and navigate difficult
-                customer interactions. I quickly moved into a middle management role as a Lead and
-                was responsible for all the daily operations of the store. I was able to learn a lot
-                about how to manage a team, manage a budget, prioritize effectively and deal with
-                ambiguity.
+                But despite my love of reading and staying active, my true passion lies in the world
+                of technology. I am a driven and focused individual who is always looking for new
+                challenges and opportunities to grow and improve. I am excited to see where my
+                career in tech takes me and am confident that my skills and determination will lead
+                me to success.
               </p>
             </div>
           </div>
@@ -87,7 +85,7 @@ export default function About() {
                 icon={MailIcon}
                 className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
               >
-                curtis.gwarcup@gmail.com
+                ananthanandanan@gmail.com
               </SocialLink>
             </ul>
           </div>

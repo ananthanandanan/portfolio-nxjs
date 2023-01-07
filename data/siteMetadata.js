@@ -1,22 +1,22 @@
 const siteMetadata = {
-  title: 'cwarcup - Curtis Warcup',
-  author: 'Curtis Warcup',
-  headerTitle: 'Curtis Warcup - Web Developer',
+  title: 'A.N.K',
+  author: 'K N Anantha nandanan',
+  headerTitle: 'K N Anantha nandanan - Software Engineer',
   description:
-    'Personal blog and web development notes created by Curtis Warcup. Also contains projects and personal interests.',
+    'Personal blog and software technology notes created by Anantha nandanan. Also contains projects and personal interests.',
   language: 'en-us',
   theme: 'dark', // system, dark or light
   siteUrl: 'https://cwarcup.com',
   siteRepo: 'https://github.com/Cwarcup/personal-blog',
   siteLogo: '/static/images/logo.png',
-  image: '/static/images/avatar.jpg',
+  image: '/static/images/ANK_passportsize.jpg',
   socialBanner: '/static/images/twitter-card.png',
-  email: 'curtis.gwarcup@gmail.com',
-  github: 'https://github.com/Cwarcup',
-  twitter: 'https://twitter.com/curtiswarcup',
-  facebook: 'https://www.facebook.com/curtis.wwwwww',
-  youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com/in/curtiswarcup/',
+  email: 'ananthanandanan@gmail.com',
+  github: 'https://github.com/ananthanandanan',
+  twitter: 'https://twitter.com/Ananthan2k',
+  // facebook: 'https://www.facebook.com/curtis.wwwwww',
+  // youtube: 'https://youtube.com',
+  linkedin: 'https://www.linkedin.com/in/de-blank/',
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the

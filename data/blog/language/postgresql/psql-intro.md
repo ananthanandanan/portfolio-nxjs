@@ -3,7 +3,7 @@ title: 'PostgreSQL: Introduction'
 date: '2022-11-15'
 tags: ['postgresql', 'psql']
 images: '/static/images/individualBlogPostImages/learning-go.jpg'
-draft: true
+draft: false
 summary: 'PostgreSQL is a powerful, open source object-relational database system. It has more than 15 years of active development and a proven architecture that has earned it a strong reputation for reliability, data integrity, and correctness.'
 ---
 

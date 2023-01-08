@@ -3,7 +3,7 @@ title: Getting Started with Python
 date: '2022-10-06'
 tags: ['Python', 'Basics']
 images: 'https://miro.medium.com/max/1400/1*RJMxLdTHqVBSijKmOO5MAg.jpeg'
-draft: true
+draft: false
 summary: Basics of Python
 ---
 

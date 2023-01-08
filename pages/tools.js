@@ -57,6 +57,16 @@ export default function Tools() {
                 <AiOutlineDesktop />
                 <span className="">Web</span>
               </Tab>
+              <Tab
+                className={({ selected }) =>
+                  selected
+                    ? 'flex items-center rounded-md bg-logoColor p-2'
+                    : 'bg-grey-100 flex items-center rounded-md p-2'
+                }
+              >
+                <AiOutlineDesktop />
+                <span className="">Linux</span>
+              </Tab>
             </Tab.List>
             <Tab.Panels>
               <Tab.Panel>
@@ -77,6 +87,13 @@ export default function Tools() {
                 <div className="container py-12">
                   <div className="-m-4 flex flex-wrap justify-center">
                     <ToolsGrid filter="web" />
+                  </div>
+                </div>
+              </Tab.Panel>
+              <Tab.Panel>
+                <div className="container py-12">
+                  <div className="-m-4 flex flex-wrap justify-center">
+                    <ToolsGrid filter="linux" />
                   </div>
                 </div>
               </Tab.Panel>

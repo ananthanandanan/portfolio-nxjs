@@ -5,7 +5,7 @@ import Link from '@/components/Link'
 
 import { Container } from '@/components/Container'
 import { GitHubIcon, LinkedInIcon, MailIcon } from '@/components/social-icons'
-import portraitImage from '../public/static/images/ANK_passportsize.jpg'
+import portraitImage from '../public/static/images/avatar-ank.jpg'
 
 function SocialLink({ className, href, children, icon: Icon }) {
   return (

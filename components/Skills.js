@@ -5,13 +5,14 @@ import {
   SiNextdotjs,
   SiNodedotjs,
   SiPostgresql,
-  SiTailwindcss,
+  // SiTailwindcss,
   SiGit,
   SiDjango,
   SiGraphql,
   SiPython,
   SiDocker,
   SiLinux,
+  SiMongodb,
 } from 'react-icons/si'
 
 import { motion } from 'framer-motion'
@@ -31,37 +32,9 @@ const skills = [
     name: 'TypeScript',
     logo: SiTypescript,
   },
-  // {
-  //   name: 'HTML',
-  //   logo: SiHtml5,
-  // },
-  // {
-  //   name: 'CSS',
-  //   logo: SiCss3,
-  // },
-  // {
-  //   name: 'JavaScript',
-  //   logo: SiJavascript,
-  // },
-  {
-    name: 'React',
-    logo: SiReact,
-  },
-  {
-    name: 'Tailwind CSS',
-    logo: SiTailwindcss,
-  },
-  {
-    name: 'Nextjs',
-    logo: SiNextdotjs,
-  },
   {
     name: 'Node.js',
     logo: SiNodedotjs,
-  },
-  {
-    name: 'PostgreSQL',
-    logo: SiPostgresql,
   },
   {
     name: 'GraphQL',
@@ -78,6 +51,27 @@ const skills = [
   {
     name: 'Linux',
     logo: SiLinux,
+  },
+  {
+    name: 'React',
+    logo: SiReact,
+  },
+  // {
+  //   name: 'Tailwind CSS',
+  //   logo: SiTailwindcss,
+  // },
+  {
+    name: 'Nextjs',
+    logo: SiNextdotjs,
+  },
+
+  {
+    name: 'PostgreSQL',
+    logo: SiPostgresql,
+  },
+  {
+    name: 'MongoDB',
+    logo: SiMongodb,
   },
 ]
 

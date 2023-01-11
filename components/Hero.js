@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { useState } from 'react'
-import { IoLogoGithub, IoLogoLinkedin, IoMail, IoCall } from 'react-icons/io5'
+import { IoLogoGithub, IoLogoLinkedin, IoMail, IoLogoTwitter } from 'react-icons/io5'
 import Notification from './Notification'
 
 function SocialLink({ icon: Icon, ...props }) {
@@ -57,11 +57,17 @@ export default function Hero() {
           aria-label="Connect with me on LinkedIn"
           icon={IoLogoLinkedin}
         />
+        <SocialLink
+          href="https://twitter.com/Ananthan2k"
+          aria-label="Connect with me on LinkedIn"
+          icon={IoLogoTwitter}
+        />
         <CopyToClipboard
           text={{ contact: 'ananthanandanan@gmail.com', type: 'Email' }}
           aria-label="Send me an email"
           icon={IoMail}
         />
+
         {/* <CopyToClipboard
           text={{ contact: '+91 8921397828', type: 'Phone number' }}
           aria-label="Give me a call"

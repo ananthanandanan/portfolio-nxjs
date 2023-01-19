@@ -84,14 +84,16 @@ git checkout .
 ### git commit
 
 The `git commit` command is used to save the changes in the staging area to the local repository.
-It can be done in two ways:
+It can be done in three ways:
 
 1. Commit a file's staged changes.
 2. Commit a snapshot of all staged changes.
+3. Commit a snapshot of all staged changes, and commit all files that are already tracked.
 
 ```bash
 git commit -m "[message]"
 git commit -a
+git commit -am "[message]"
 ```
 
 ### Uncommit changes
@@ -181,6 +183,42 @@ git checkout [branch-name]
 
 ```bash
 git push [remote-name] --delete [branch-name]
+```
+
+### git Stash
+
+The stash command temporarily stores all the modified tracked files. This comes to use when you have some changes that you don't want to commit immediately
+or the feature you add might break the current code. You can stash the changes and then apply them later. This can be done using command:
+
+```bash
+git stash
+```
+
+- You can also provide a tag to the stash command to identify the stash later.
+
+```bash
+git stash save [tag]
+```
+
+- To apply the stash, use the `git stash apply` command.
+
+```bash
+git stash apply [stash@{0}]
+```
+
+- Or you can use the `git stash pop` command to apply the stash and delete it.
+
+```bash
+git stash pop [stash@{0}]
+```
+
+> Note: The `stash@{0}` is the tag of the stash. If you don't provide any tag, then it will apply the most recent stash. If you want to
+> see all the stashes, use the `git stash list` command.
+
+- To delete a stash, use the `git stash drop` command.
+
+```bash
+git stash drop [stash@{0}]
 ```
 
 ### Cherry pick

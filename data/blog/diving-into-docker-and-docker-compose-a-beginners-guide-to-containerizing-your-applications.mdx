@@ -270,6 +270,57 @@ volumes:
   myvolume:
 ```
 
+## Ports
+
+We use the `port` key to expose the ports of the container to the host machine. It takes a list of ports or an object with configuration options.
+Each port is defined as `HOST:CONTAINER`. Here is an example of a service that exposes ports:
+
+```yaml
+version: '3'
+services:
+  web:
+    image: myapp:latest
+    ports:
+      - '3000:3000'
+    volumes:
+      - myvolume:/app
+    depends_on:
+      - db
+  worker:
+    image: myapp:latest
+    volumes:
+      - myvolume:/app
+  db:
+    image: postgres:latest
+volumes:
+  myvolume:
+```
+
+- In simple terms, this means that the `web` service exposes port `3000` on the host machine and forwards that traffic to port `3000` on the container.
+- You can provide a list of ports to expose multiple ports. Here is an example of a service that exposes multiple ports:
+
+```yaml
+version: '3'
+services:
+  web:
+    image: myapp:latest
+    ports:
+      - '3000:3000'
+      - '3001:3001'
+    volumes:
+      - myvolume:/app
+    depends_on:
+      - db
+  worker:
+    image: myapp:latest
+    volumes:
+      - myvolume:/app
+  db:
+    image: postgres:latest
+volumes:
+  myvolume:
+```
+
 ## Networks
 
 The `networks` key is used to define the application's networks. It takes a list of network names or an object with configuration options. Here is an example of a service that

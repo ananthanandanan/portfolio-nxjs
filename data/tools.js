@@ -8,6 +8,22 @@ const Tools = [
     description: `A lightweight code editor with plenty of plugins.`,
   },
   {
+    id: `cursor`,
+    category: [`mac`],
+    link: `https://cursor.sh/`,
+    labels: [`Editor`],
+    name: `Cursor`,
+    description: `The AI-first Code Editor`,
+  },
+  {
+    id: `warp`,
+    category: [`mac`],
+    link: `https://www.warp.dev/`,
+    labels: [`Editor`],
+    name: `Warp`,
+    description: `Warp is a modern, Rust-based terminal with AI built in so you and your team can build great software, faster.`,
+  },
+  {
     id: `discord`,
     category: [`mac`, `ios`, `web`],
     link: `https://discord.com`,
@@ -56,6 +72,14 @@ const Tools = [
     labels: [`Project Board`],
     name: `Trello`,
     description: `Manage projects with team`,
+  },
+  {
+    id: `docker`,
+    category: [`web`, `linux`, `mac`, `windows`],
+    link: `https://www.docker.com/`,
+    labels: [`Containerization`],
+    name: `Docker`,
+    description: `A platform to develop, ship, and run applications in containers.`,
   },
 ]
 export default Tools

@@ -5,7 +5,7 @@ import Notification from './Notification'
 
 function SocialLink({ icon: Icon, ...props }) {
   return (
-    <Link className="-m-1 p-1 " {...props}>
+    <Link className="-m-1 p-1 " {...props} legacyBehavior>
       <Icon className="h-6 w-6 cursor-pointer fill-gray-500 transition hover:fill-gray-200" />
     </Link>
   )

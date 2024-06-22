@@ -1,4 +1,4 @@
-import Image from './Image'
+import Image from 'next/image'
 import Link from './Link'
 
 const ToolsCard = ({ name, description, link, id, labels }) => {
@@ -18,8 +18,8 @@ const ToolsCard = ({ name, description, link, id, labels }) => {
                 alt={id}
                 src={`/static/images/toolsImages/${id}.png`}
                 className=""
-                width="68px"
-                height="68px"
+                width={68}
+                height={68}
               />
             </span>
           </Link>

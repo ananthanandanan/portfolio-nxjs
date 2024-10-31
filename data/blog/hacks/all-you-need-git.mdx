@@ -290,6 +290,24 @@ This is the last resort, when you have done some dumb action and you want to rec
 git reflog
 ```
 
+## Handling Merge Conflicts through - ours and theirs
+
+The `git rebase` command is one of the most powerful and verstatile commands in Git. It can be used to reapply commits on top of another base tip, rename commits, squash commits, and handle merge conflicts.
+
+When you have a merge conflict, you can use the `ours` and `theirs` options to resolve the conflict.
+
+1. Use `ours` option to keep the changes from the current branch.
+2. Use `theirs` option to keep the changes from the branch being merged.
+
+```bash
+git rebase -X ours [branch-name]
+git rebase -X theirs [branch-name]
+```
+
+How this would work is, when you have a merge conflict, you can use the `ours` option to keep the changes from the current branch, and the `theirs` option to keep the changes from the branch being merged. Its one of those time saving commands, where you don't have to manually resolve the conflicts.
+
+> Note: The `ours` and `theirs` options are used to resolve the conflicts in favor of the current branch or the branch being merged. So use them wisely.
+
 ## Conclusion
 
 In this post, I've covered the most common Git commands that I use on a daily basis. I hope this post will help you to get started with Git.

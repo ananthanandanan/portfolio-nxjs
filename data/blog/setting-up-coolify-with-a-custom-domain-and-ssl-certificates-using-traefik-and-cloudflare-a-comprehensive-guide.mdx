@@ -143,6 +143,8 @@ services:
       - traefik.http.services.traefik.loadbalancer.server.port=8080
       - traefik.http.middlewares.redirect-to-https.redirectscheme.scheme=https
       - traefik.http.middlewares.gzip.compress=true
+      - coolify.managed=true
+      - coolify.proxy=true
 ```
 
 **Key Tips**:

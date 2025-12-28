@@ -38,13 +38,15 @@ export default function Hero() {
   return (
     <div className="mb-5 max-w-2xl">
       <h1 className="text-4xl font-bold tracking-tight text-gray-800 dark:text-zinc-100 sm:text-5xl">
-        Web developer, techie and, fitness junkie.
+        Building products, writing code, and staying fit.
       </h1>
       <p className="mt-6 text-base text-gray-600 dark:text-gray-400">
-        I'm K N Anantha nandanan based in Kerala, India. I am a web developer and ML Researcher and
-        currently pursuing my B.Tech in Computer Science and Engineering. I enjoy working with a
-        team to solve problems and build solutions. On this website, you will find a collection of
-        my past projects and experiences as well as my thoughts and insights on the tech industry.
+        I’m K N Anantha Nandanan, an engineer based in Kerala, India, focused on building practical,
+        real-world software solutions. I’m leading QuestCraft, an LLM-powered product that
+        simplifies assessment creation for teachers. I specialize in Backend Engineering and DevOps,
+        with a strong interest in scalable systems and applied AI. This website is a curated space
+        where I share my projects, professional journey, and thoughtful perspectives on technology
+        and the industry.
       </p>
       <div className="mt-6 flex gap-6">
         <SocialLink

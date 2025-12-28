@@ -5,7 +5,7 @@ import Link from '@/components/Link'
 
 import { Container } from '@/components/Container'
 import { GitHubIcon, LinkedInIcon, MailIcon, TwitterIcon } from '@/components/social-icons'
-import portraitImage from '../public/static/images/avatar-ank.jpg'
+import portraitImage from '../public/static/images/profile.JPG'
 
 function SocialLink({ className, href, children, icon: Icon }) {
   return (
@@ -50,25 +50,22 @@ export default function About() {
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                I have always been a guy who had a mind of a vagabond, the mind wanders to find
-                answers to questions which excites me and I always try to reach the root of those
-                questions. What is life, when you don't question it? and now I am currently in the
-                midst of pursuing my B.Tech in Computer Science. As a software engineer, I have
-                always been drawn to the challenge of problem-solving and the rewarding feeling of
-                finding a solution. It's this love of problem-solving that has driven me to become a
-                better programmer and team player.
+                I'm a software engineer based in Kerala, India, with a focus on building scalable
+                backend systems and infrastructure. Currently, I'm leading QuestCraft, an
+                LLM-powered platform that helps teachers create assessments more efficiently. My
+                work spans backend engineering, DevOps, and applied AI, with a particular interest
+                in systems that can handle real-world scale and complexity.
               </p>
               <p>
-                When I'm not working, I like to unwind by reading web novels or hitting the gym.
-                I've always been a fitness junkie and enjoy the sense of accomplishment that comes
-                with pushing myself to be the best version of myself.
+                I approach each project with a focus on practical solutions over theoretical
+                perfection. Whether it's designing APIs, setting up infrastructure, or integrating
+                AI capabilities, I prioritize maintainability and developer experience alongside
+                performance.
               </p>
               <p>
-                But despite my love of reading and staying active, my true passion lies in the world
-                of technology. I am a driven and focused individual who is always looking for new
-                challenges and opportunities to grow and improve. I am excited to see where my
-                career in tech takes me and am confident that my skills and determination will lead
-                me to success.
+                Outside of work, I stay active at the gym and enjoy reading. I use this website to
+                document my technical learnings, share project insights, and write about the
+                challenges and solutions I encounter while building software.
               </p>
             </div>
           </div>

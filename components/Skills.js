@@ -13,7 +13,13 @@ import {
   SiDocker,
   SiLinux,
   SiMongodb,
+  SiFastapi,
+  SiCelery,
+  SiRabbitmq,
+  SiLangchain,
+  SiMinio,
 } from 'react-icons/si'
+import { GiTortoise } from 'react-icons/gi'
 
 import { motion } from 'framer-motion'
 import { showHoverAnimation, removeHoverAnimation } from '../lib/windowAnimation'
@@ -37,10 +43,6 @@ const skills = [
     logo: SiNodedotjs,
   },
   {
-    name: 'GraphQL',
-    logo: SiGraphql,
-  },
-  {
     name: 'Git',
     logo: SiGit,
   },
@@ -53,14 +55,6 @@ const skills = [
     logo: SiLinux,
   },
   {
-    name: 'React',
-    logo: SiReact,
-  },
-  // {
-  //   name: 'Tailwind CSS',
-  //   logo: SiTailwindcss,
-  // },
-  {
     name: 'Nextjs',
     logo: SiNextdotjs,
   },
@@ -72,6 +66,30 @@ const skills = [
   {
     name: 'MongoDB',
     logo: SiMongodb,
+  },
+  {
+    name: 'FastAPI',
+    logo: SiFastapi,
+  },
+  {
+    name: 'Celery',
+    logo: SiCelery,
+  },
+  {
+    name: 'RabbitMQ',
+    logo: SiRabbitmq,
+  },
+  {
+    name: 'MinIO',
+    logo: SiMinio,
+  },
+  {
+    name: 'LangChain',
+    logo: SiLangchain,
+  },
+  {
+    name: 'Tortoise ORM',
+    logo: GiTortoise,
   },
 ]
 
